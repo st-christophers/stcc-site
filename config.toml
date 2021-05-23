@@ -1,0 +1,44 @@
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "St. Christopher's Brislington"
+
+theme = "stcc-v1"
+
+[params]
+  subtitle = "Using God's Gifts To Grow God's Kingdom"
+  description = "St Christopher's Church, Brislington."
+  navLogo = "stcc-logo.jpg"
+
+[menu]
+  [[menu.main]]
+    identifier = "team"
+    name = "Team"
+    URL = "/team"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "mission"
+    name = "Mission"
+    URL = "/mission"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "whats-on"
+    name = "What's On"
+    URL = "/whats-on"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    URL = "/whats-on/services"
+    parent = "whats-on"
+    weight = 31
+
+  [[menu.main]]
+    identifier = "hire-cta"
+    name = "Hire the Hall"
+    URL = "/hire/hall"
+    weight = 4
+    [menu.main.params]
+      cta = "primary"
