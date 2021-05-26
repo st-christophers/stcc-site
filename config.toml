@@ -2,8 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en"
 title = "St. Christopher's Brislington"
 
-theme = "stcc-v1"
-
 [params]
   subtitle = "Using God's Gifts To Grow God's Kingdom"
   description = "St Christopher's Church, Brislington."
